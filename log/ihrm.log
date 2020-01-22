@@ -82,3 +82,45 @@
 2020-01-22 18:08:23,770 INFO [root] [test_employee.py(test03_modify_emp:61)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219946305589432320'}}
 2020-01-22 18:08:24,247 INFO [root] [test_employee.py(test03_modify_emp:72)] - 数据库查询结果为：('tom',)
 2020-01-22 18:08:24,425 INFO [root] [test_employee.py(test04_delete_emp:89)] - 删除员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-01-22 18:52:37,982 INFO [root] [__init__.py(<module>:8)] - 测试日志能不能正常打印！
+2020-01-22 18:52:38,424 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '781a6278-dffb-46a9-9b77-8f4e6abbde09'}
+2020-01-22 18:52:38,558 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:52:38,684 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:52:38,818 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:52:38,946 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:52:39,075 INFO [root] [test_employee.py(test01_add_emp:27)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '3c8afe78-65d5-4602-9131-48d6654699a7'}
+2020-01-22 18:52:39,076 INFO [root] [test_employee.py(test01_add_emp:31)] - 保存的令牌HEADERS为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3c8afe78-65d5-4602-9131-48d6654699a7'}
+2020-01-22 18:52:39,228 INFO [root] [test_employee.py(test01_add_emp:36)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219957444540977152'}}
+2020-01-22 18:52:39,228 INFO [root] [test_employee.py(test01_add_emp:43)] - 保存的员工ID为：1219957444540977152
+2020-01-22 18:52:39,381 INFO [root] [test_employee.py(test02_query_emp:51)] - 查询员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219957444540977152', 'mobile': '14898346789', 'username': '马云X0000322S12345', 'password': 'f412188f40256fc4547fd650cdcff11c', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '10086', 'timeOfEntry': '1970-01-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '9527', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '1970-03-01T09:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-01-22 18:52:39,516 INFO [root] [test_employee.py(test03_modify_emp:61)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219957444540977152'}}
+2020-01-22 18:52:39,938 INFO [root] [test_employee.py(test03_modify_emp:72)] - 数据库查询结果为：('tom',)
+2020-01-22 18:52:40,263 INFO [root] [test_employee.py(test04_delete_emp:89)] - 删除员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-01-22 18:59:22,670 INFO [root] [__init__.py(<module>:8)] - 测试日志能不能正常打印！
+2020-01-22 18:59:23,108 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0419d49c-ea0d-45b6-aa50-ac7df51930f1'}
+2020-01-22 18:59:23,231 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:59:23,344 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:59:23,468 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:59:23,587 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 18:59:23,724 INFO [root] [test_employee.py(test01_add_emp:27)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'e532e965-46ec-4689-bb9f-0b558fa42b26'}
+2020-01-22 18:59:23,725 INFO [root] [test_employee.py(test01_add_emp:31)] - 保存的令牌HEADERS为：{'Content-Type': 'application/json', 'Authorization': 'Bearer e532e965-46ec-4689-bb9f-0b558fa42b26'}
+2020-01-22 18:59:23,867 INFO [root] [test_employee.py(test01_add_emp:36)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219959141753507840'}}
+2020-01-22 18:59:23,868 INFO [root] [test_employee.py(test01_add_emp:43)] - 保存的员工ID为：1219959141753507840
+2020-01-22 18:59:23,989 INFO [root] [test_employee.py(test02_query_emp:51)] - 查询员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219959141753507840', 'mobile': '14898346789', 'username': '马云X0000322S12345', 'password': 'f412188f40256fc4547fd650cdcff11c', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '10086', 'timeOfEntry': '1970-01-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '9527', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '1970-03-01T09:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-01-22 18:59:24,170 INFO [root] [test_employee.py(test03_modify_emp:61)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219959141753507840'}}
+2020-01-22 18:59:24,799 INFO [root] [test_employee.py(test03_modify_emp:72)] - 数据库查询结果为：('tom',)
+2020-01-22 18:59:24,944 INFO [root] [test_employee.py(test04_delete_emp:89)] - 删除员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-01-22 19:00:06,089 INFO [root] [__init__.py(<module>:8)] - 测试日志能不能正常打印！
+2020-01-22 19:00:06,533 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '060b2ae2-28e9-42b6-ad39-6072468c3e94'}
+2020-01-22 19:00:06,662 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 19:00:07,034 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 19:00:07,158 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 19:00:07,289 INFO [root] [test_login_params.py(test01_login:23)] - 登陆的结果为:{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-01-22 19:00:07,422 INFO [root] [test_employee.py(test01_add_emp:27)] - 员工模块的登陆结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'a6967b92-ee58-4760-b14e-d031bbcb7301'}
+2020-01-22 19:00:07,422 INFO [root] [test_employee.py(test01_add_emp:31)] - 保存的令牌HEADERS为：{'Content-Type': 'application/json', 'Authorization': 'Bearer a6967b92-ee58-4760-b14e-d031bbcb7301'}
+2020-01-22 19:00:07,597 INFO [root] [test_employee.py(test01_add_emp:36)] - 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219959325149450240'}}
+2020-01-22 19:00:07,598 INFO [root] [test_employee.py(test01_add_emp:43)] - 保存的员工ID为：1219959325149450240
+2020-01-22 19:00:07,750 INFO [root] [test_employee.py(test02_query_emp:51)] - 查询员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219959325149450240', 'mobile': '14898346789', 'username': '马云X0000322S12345', 'password': 'f412188f40256fc4547fd650cdcff11c', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '10086', 'timeOfEntry': '1970-01-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': '9527', 'formOfManagement': None, 'workingCity': None, 'correctionTime': '1970-03-01T09:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-01-22 19:00:07,900 INFO [root] [test_employee.py(test03_modify_emp:61)] - 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1219959325149450240'}}
+2020-01-22 19:00:08,300 INFO [root] [test_employee.py(test03_modify_emp:72)] - 数据库查询结果为：('tom',)
+2020-01-22 19:00:08,469 INFO [root] [test_employee.py(test04_delete_emp:89)] - 删除员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
