@@ -10,7 +10,8 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestLoginParams))
 suite.addTest(unittest.makeSuite(TestEmployee))
 # 4 定义测试报告的名称
-report_name = app.BASE_DIR + "/report/ihrm-{}.html".format(time.strftime('%Y%m%d %H%M%S'))
+# report_name = app.BASE_DIR + "/report/ihrm-{}.html".format(time.strftime('%Y%m%d %H%M%S'))
+report_name = app.BASE_DIR + "/report/ihrm.html"
 # 5 打开测试报告，初始化runner，执行测试用例，生成测试报告
 with open(report_name, mode='wb') as f:
     # 初始化runner
