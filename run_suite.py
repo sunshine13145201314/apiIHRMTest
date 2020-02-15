@@ -18,5 +18,3 @@ with open(report_name, mode='wb') as f:
     runner = HTMLTestRunner(f, verbosity=1, title="IHRM人力资源管理系统接口测试", description="V1.0.1")
     # 使用runner运行测试套件
     runner.run(suite)
-
-print("Hello World!" + "-" * 50)
