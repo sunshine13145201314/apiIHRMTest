@@ -19,4 +19,4 @@ with open(report_name, mode='wb') as f:
     # 使用runner运行测试套件
     runner.run(suite)
 
-print("Hello World!  " + "-" * 50)
+print("Hello World!" + "-" * 50)
